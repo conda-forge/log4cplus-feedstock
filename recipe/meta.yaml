@@ -1,5 +1,5 @@
 {% set name = "log4cplus" %}
-{% set version = "2.0.7" %}
+{% set version = "2.1.1" %}
 
 package:
   name: {{ name }}
@@ -8,7 +8,7 @@ package:
 source:
   - url: https://sourceforge.net/projects/{{ name }}/files/{{ name }}-stable/{{ version }}/{{ name }}-{{ version }}.tar.gz
     fn: {{ name }}-{{ version }}.tar.gz
-    sha256: 086451c7e7c582862cbd6c60d87bb6d9d63c4b65321dba85fa71766382f7ec6d
+    sha256: 42dc435928917fd2f847046c4a0c6086b2af23664d198c7fc1b982c0bfe600c1
   - path: CMakeLists.txt
 
 build:
